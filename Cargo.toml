@@ -1,0 +1,26 @@
+[package]
+name = "Rust-Bootcamp-2023"
+version = "0.1.0"
+edition = "2021"
+authors = ["CocDap"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[workspace]
+members = [
+  "."
+]
+
+[[test]]
+name = "conditions"
+path = "./src/conditions.rs"
+
+[[test]]
+name = "strings"
+path = "./src/strings.rs"
+
+[[test]]
+name = "functions"
+path = "./src/functions.rs"
+
+
+[dependencies]
